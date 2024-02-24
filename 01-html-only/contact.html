@@ -10,64 +10,73 @@
 </head>
 
 <body>
-  <header>
-    <h1>Contact Us</h1>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="#">Fur-tastic Grooming</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav">
-            <li class="nav-item">
-              <a class="nav-link" href="index.html">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link active" href="about.html">About Us</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="services.html">Services</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="contact.html">Contact</a>
-            </li>
-          </ul>
+  <div class="container">
+    <header>
+      <h1>Contact Us</h1>
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Fur-tastic Grooming</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="about.html">About Us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="services.html">Services</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contact.html">Contact</a>
+              </li>
+            </ul>
+          </div>
         </div>
-      </div>
-    </nav>
-  </header>
+      </nav>
+    </header>
 
-  <main>
-    <section id="contact-info">
-      <h2>Contact Information</h2>
-      <p>If you have any questions or would like to schedule an appointment, feel free to contact us:</p>
-      <ul>
-        <li><strong>Phone:</strong> (555) 123-4567</li>
-        <li><strong>Email:</strong> <a href="mailto:info@furtasticgrooming.com">info@furtasticgrooming.com</a>
-        </li>
-        <li><strong>Address:</strong> 123 Fur Street, Dogville, USA</li>
-      </ul>
-    </section>
+    <main>
+      <section id="contact-info">
+        <h2>Contact Information</h2>
+        <p>If you have any questions or would like to schedule an appointment, feel free to contact us:</p>
+        <ul>
+          <li><strong>Phone:</strong> (555) 123-4567</li>
+          <li><strong>Email:</strong> <a href="mailto:info@furtasticgrooming.com">info@furtasticgrooming.com</a>
+          </li>
+          <li><strong>Address:</strong> 123 Fur Street, Dogville, USA</li>
+        </ul>
+      </section>
 
-    <section id="contact-form">
-      <h2>Send us a Message</h2>
-      <form action="#" method="post">
-        <label for="name">Name:</label>
-        <input type="text" id="name" name="name" required><br>
-        <label for="email">Email:</label>
-        <input type="email" id="email" name="email" required><br>
-        <label for="message">Message:</label><br>
-        <textarea id="message" name="message" rows="4" required></textarea><br>
-        <button type="submit">Send</button>
-      </form>
-    </section>
-  </main>
+      <section id="contact-form">
+        <h2>Send us a Message</h2>
+        <form action="#" method="post">
+          <div class="mb-3">
+            <label for="name" class="form-label">Name:</label>
+            <input type="text" class="form-control" id="name" name="name" required>
+          </div>
+          <div class="mb-3">
+            <label for="email" class="form-label">Email:</label>
+            <input type="email" class="form-control" id="email" name="email" required>
+          </div>
+          <div class="mb-3">
+            <label for="message" class="form-label">Message:</label>
+            <textarea class="form-control" id="message" name="message" rows="4" required></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary">Send</button>
+        </form>
+      </section>
+    </main>
 
-  <footer>
-    <p>&copy; 2024 Fur-tastic Grooming. All rights reserved.</p>
-  </footer>
+    <footer>
+      <p>&copy; 2024 Fur-tastic Grooming. All rights reserved.</p>
+    </footer>
+  </div>
+
 </body>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
   integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
